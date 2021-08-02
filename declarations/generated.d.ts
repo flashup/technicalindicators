@@ -893,11 +893,6 @@ export class CrossUp extends Indicator {
 }
 export function crossUp(input: CrossInput): boolean[];
 
-export class CrossInput extends IndicatorInput {
-    lineA: number[];
-    lineB: number[];
-    constructor(lineA: number[], lineB: number[]);
-}
 export class CrossDown extends Indicator {
     lineA: number[];
     lineB: number[];
